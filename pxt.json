@@ -1,0 +1,36 @@
+{
+    "name": "Crawling Dungeon",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "animation": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "sprite-scaling": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
